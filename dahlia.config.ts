@@ -3,13 +3,13 @@ import antd from 'dahlia-antd'
 import styledJsx from 'dahlia-styled-jsx'
 
 export default {
-  title: '资源审查平台',
+  title: 'Dahlia Admin',
   plugins: [
     less({
       modifyVars: {
-        // 'primary-color': 'red',
-        // 'link-color': '#1DA57A',
-        // 'border-radius-base': '10px',
+        '@primary-color': '#40dc7e',
+        // '@link-color': '#1DA57A',
+        // '@border-radius-base': '10px',
       },
       javascriptEnabled: true,
     }),

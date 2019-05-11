@@ -1,11 +1,11 @@
 ## 开发
 
 ```bash
-$ tp start
+$ dh start
 ```
 
 ## 打包
 
 ```bash
-$ tp build
+$ dh build
 ```

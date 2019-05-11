@@ -1,13 +1,15 @@
+import React, { FC } from 'react'
 import { Icon, Menu } from 'antd'
 import { Link } from 'dahlia/router'
-import React from 'react'
-
 import { t } from 'dahlia/i18n'
-import menuConfig from './menuConfig'
+import config from './menu.config'
 import siderStore from './sidebarStore'
+import handleConfig from './handleConfig'
 import { MenuConfig, MenuItem } from './typings'
 
 const SubMenu = Menu.SubMenu
+
+const menuConfig = handleConfig(config)
 
 const getMenuText = (item: MenuItem) => {
   if (!item.icon) return t(item.name)
@@ -20,7 +22,7 @@ const getMenuText = (item: MenuItem) => {
 }
 
 const getMenuItem = (item: MenuItem) => {
-  const key = item.path
+  const { key = '' } = item
   if (item.children) {
     return (
       <SubMenu title={getMenuText(item)} key={key}>
@@ -54,7 +56,7 @@ const handleOpenChange = (openKeys: string[]) => {
   siderStore.updateOpenKeys(keys)
 }
 
-const SideMenu: React.SFC<{ collapsed: boolean; openKeys?: any }> = ({
+const SideMenu: FC<{ collapsed: boolean; openKeys?: any }> = ({
   collapsed,
 }) => {
   const { pathname } = window.location
