@@ -21,7 +21,6 @@
 # vscode
 .history/
 
-.testplus/
 .dahlia/
 
 npm-debug.log*
