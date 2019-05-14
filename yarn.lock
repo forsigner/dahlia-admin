@@ -3771,12 +3771,26 @@ dahlia-graphql-client@^1.0.0:
   dependencies:
     dahlia-request "^1.0.0"
 
+dahlia-graphql-client@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/dahlia-graphql-client/-/dahlia-graphql-client-1.1.1.tgz#7fafdfdfb1a1216c556fa8a9f2986fd5d295fc38"
+  integrity sha512-pjXd/b1mkRc8mdnD+TCy20QcUnR0l5QtA30qZsXqqDBw+tmWbRnFDB5gFrD3wUEIgFyyFrQ+6ScHIOMlkm8V4Q==
+  dependencies:
+    dahlia-request "^1.1.0"
+
 dahlia-graphql@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/dahlia-graphql/download/dahlia-graphql-1.0.1.tgz#e5abaa5af589cafa03bd8a61058db6271681a361"
   integrity sha1-5auqWvWJyvoDvYphBY22JxaBo2E=
   dependencies:
     dahlia-graphql-client "^1.0.0"
+
+dahlia-graphql@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/dahlia-graphql/-/dahlia-graphql-1.1.1.tgz#958511a62e0cd543bf177ce8092f263e91516416"
+  integrity sha512-NYrGW5YR+JNdScgsi9MvtOBcdAhm3YPoCETXkcW/Tz/4+1sOpwM5aPhcSZeRgwSteD//wKG7gKzlbmRObs542g==
+  dependencies:
+    dahlia-graphql-client "^1.1.1"
 
 dahlia-i18n@^1.0.3:
   version "1.0.3"
@@ -3801,6 +3815,13 @@ dahlia-modal@^1.1.14:
   dependencies:
     dahlia-store "^1.2.20"
 
+dahlia-modal@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/dahlia-modal/-/dahlia-modal-1.2.0.tgz#bc960f662a7ae45c9adbbcda8120ee7dd003aaab"
+  integrity sha512-QPja5Dsr2R86yoRQnd7ysjBFnRi/obFuMLKT/tH2b5JxdsPgYluSQgS2qkc00UaQLr1CfRDPKJ/khCC7Gimm0Q==
+  dependencies:
+    dahlia-store "^1.2.20"
+
 dahlia-observable@^1.0.14:
   version "1.0.14"
   resolved "https://registry.npm.taobao.org/dahlia-observable/download/dahlia-observable-1.0.14.tgz#2c9bf3ee111c01b2765f8e578959eeee9c1fc1db"
@@ -3814,6 +3835,14 @@ dahlia-request@^1.0.0:
     cross-fetch "^3.0.1"
     qs "^6.7.0"
 
+dahlia-request@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/dahlia-request/-/dahlia-request-1.1.0.tgz#05d3d14531d24689f34495b757b62ff66f717fd1"
+  integrity sha512-rt07z/BESzTPzJt4qNag9NzNslao5xS1ApywnIzB59XlxOA7Xxf7daC2Yd4UNEtvfvvJm6eLhiwDfoMkZm89Jg==
+  dependencies:
+    cross-fetch "^3.0.1"
+    qs "^6.7.0"
+
 dahlia-rest@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/dahlia-rest/download/dahlia-rest-1.0.3.tgz#d4f854bc063efc1127e4da89d7dbe31895a12ae6"
@@ -3821,10 +3850,25 @@ dahlia-rest@^1.0.3:
   dependencies:
     dahlia-request "^1.0.0"
 
+dahlia-rest@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/dahlia-rest/-/dahlia-rest-1.1.2.tgz#0ca7d49c69f6708e427298d0ec9c4fdf3d2695e1"
+  integrity sha512-/ManwlaM3nnnxRDPIcgA5I0Ga8Q4y3lvtdVvX9dWzc/7TfjYioyx4/iz3J7ag40kXem056mAriePAdu5S9cAiA==
+  dependencies:
+    dahlia-request "^1.1.0"
+
 dahlia-router@^1.1.12:
   version "1.1.12"
   resolved "https://registry.npm.taobao.org/dahlia-router/download/dahlia-router-1.1.12.tgz#2dcde301d377b6338b12455bed472c8fdfc2846b"
   integrity sha1-Lc3jAdN3tjOLEkVb7Ucsj9/ChGs=
+  dependencies:
+    dahlia-store "^1.2.20"
+    path-parser "^4.2.0"
+
+dahlia-router@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/dahlia-router/-/dahlia-router-1.2.0.tgz#e825019bfa778cd5eab9f5725bc29ef98439386a"
+  integrity sha512-Rd9Z9LUGlaoYzHFQgzuXNF/VQr7PLh/hI27hH4+QtppAI1bPEJU3ZwtzSV+D7uMWgXDOcNATSVHW8Wmlav/JVA==
   dependencies:
     dahlia-store "^1.2.20"
     path-parser "^4.2.0"
@@ -3865,6 +3909,33 @@ dahlia@^1.13.19:
     dahlia-modal "^1.1.14"
     dahlia-rest "^1.0.3"
     dahlia-router "^1.1.12"
+    dahlia-store "^1.2.20"
+    gery "^1.1.3"
+    gql-tag "^1.0.1"
+    styled-components "^4.2.0"
+    styled-jsx "^3.2.1"
+
+dahlia@^1.14.2:
+  version "1.14.2"
+  resolved "https://registry.npmjs.org/dahlia/-/dahlia-1.14.2.tgz#aea4413d9b5fecf6e79cb6a56451de520cfb0660"
+  integrity sha512-cjCmEr4arbpioiYBsdJC4lsGTYXpnxkoydq2NzCIZt/byHyyxnC/r0CNY5wW0MERxTEd5+lo6xAv4/9GVjsV/A==
+  dependencies:
+    "@types/styled-components" "^4.1.14"
+    "@types/styled-jsx" "^2.2.8"
+    checkok "^1.1.1"
+    checkok-email "^1.0.1"
+    checkok-max "^1.0.1"
+    checkok-min "^1.0.1"
+    checkok-number "^1.0.0"
+    checkok-required "^1.0.0"
+    checkok-string "^1.0.1"
+    checkok-url "^1.0.1"
+    dahlia-form "^1.0.5"
+    dahlia-graphql "^1.1.1"
+    dahlia-i18n "^1.0.3"
+    dahlia-modal "^1.2.0"
+    dahlia-rest "^1.1.2"
+    dahlia-router "^1.2.0"
     dahlia-store "^1.2.20"
     gery "^1.1.3"
     gql-tag "^1.0.1"

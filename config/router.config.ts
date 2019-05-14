@@ -1,6 +1,7 @@
 import BasicLayout from '@layouts/BasicLayout'
 import Index from '@pages/index'
 import TodoList from '@pages/TodoList'
+import TodoItem from '@pages/TodoItem'
 
 const routes = [
   {
@@ -20,6 +21,10 @@ const routes = [
       {
         path: '/list',
         component: TodoList,
+      },
+      {
+        path: '/item',
+        component: TodoItem,
       },
     ],
   },

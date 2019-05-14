@@ -1,7 +1,6 @@
 import { MenuItem } from './typings'
 
 function trimSlash(str: string) {
-  console.log('str:', str)
   return str.replace(/^\//, '').replace(/\/$/, '')
 }
 

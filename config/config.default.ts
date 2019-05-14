@@ -1,7 +1,7 @@
 import { Config } from 'dahlia'
 const config: Partial<Config> = {
   rest: {
-    endpoint: '',
+    endpoint: 'https://jsonplaceholder.typicode.com',
   },
   graphql: {
     endpoint: '',

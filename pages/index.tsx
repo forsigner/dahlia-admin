@@ -1,4 +1,5 @@
 import React from 'react'
+import { modalStore } from 'dahlia/modal'
 
 export default () => (
   <div>
@@ -7,11 +8,12 @@ export default () => (
       styled
       <span>jsx</span>
     </div>
+    <button onClick={() => modalStore.open('ModalLogin')}>open</button>
     <style jsx>{`
       .home {
         color: green;
       }
-      div {
+      span {
         color: red;
       }
     `}</style>

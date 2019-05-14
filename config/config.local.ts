@@ -1,12 +1,9 @@
-const rest = {
-  // endpoint: 'http://localhost:3000/v1/api',
-  endpoint: 'http://localhost:7001/v1/api',
-}
-
 const config = {
-  rest,
+  rest: {
+    endpoint: 'https://jsonplaceholder.typicode.com',
+  },
   graphql: {
-    endpoint: 'http://localhost:7001/graphql',
+    endpoint: '',
   },
 }
 
