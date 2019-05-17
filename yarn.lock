@@ -3764,6 +3764,18 @@ dahlia-form@^1.0.5:
     lodash.set "^4.3.2"
     util-is-array "^1.0.0"
 
+dahlia-form@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/dahlia-form/download/dahlia-form-1.1.0.tgz#50efe69eab3fafb71f4e3c54944e3d41d22781bf"
+  integrity sha1-UO/mnqs/r7cfTjxUlE49QdIngb8=
+  dependencies:
+    checkok "^1.1.1"
+    dahlia-store "^1.2.20"
+    fast-deep-equal "^2.0.1"
+    lodash.get "^4.4.2"
+    lodash.set "^4.3.2"
+    util-is-array "^1.0.0"
+
 dahlia-graphql-client@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/dahlia-graphql-client/download/dahlia-graphql-client-1.0.0.tgz#59b98f693856a76a9877f04dea4451b334e8d010"
@@ -3771,10 +3783,10 @@ dahlia-graphql-client@^1.0.0:
   dependencies:
     dahlia-request "^1.0.0"
 
-dahlia-graphql-client@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/dahlia-graphql-client/-/dahlia-graphql-client-1.1.1.tgz#7fafdfdfb1a1216c556fa8a9f2986fd5d295fc38"
-  integrity sha512-pjXd/b1mkRc8mdnD+TCy20QcUnR0l5QtA30qZsXqqDBw+tmWbRnFDB5gFrD3wUEIgFyyFrQ+6ScHIOMlkm8V4Q==
+dahlia-graphql-client@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/dahlia-graphql-client/download/dahlia-graphql-client-1.1.2.tgz#64c0d4ff5d04c313bee68dd9d3ceb655e6833112"
+  integrity sha1-ZMDU/10EwxO+5o3Z0862VeaDMRI=
   dependencies:
     dahlia-request "^1.1.0"
 
@@ -3785,12 +3797,12 @@ dahlia-graphql@^1.0.1:
   dependencies:
     dahlia-graphql-client "^1.0.0"
 
-dahlia-graphql@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/dahlia-graphql/-/dahlia-graphql-1.1.1.tgz#958511a62e0cd543bf177ce8092f263e91516416"
-  integrity sha512-NYrGW5YR+JNdScgsi9MvtOBcdAhm3YPoCETXkcW/Tz/4+1sOpwM5aPhcSZeRgwSteD//wKG7gKzlbmRObs542g==
+dahlia-graphql@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/dahlia-graphql/download/dahlia-graphql-1.1.2.tgz#7a24153e992bc3f053aa7abab66191b125b3a7eb"
+  integrity sha1-eiQVPpkrw/BTqnq6tmGRsSWzp+s=
   dependencies:
-    dahlia-graphql-client "^1.1.1"
+    dahlia-graphql-client "^1.1.2"
 
 dahlia-i18n@^1.0.3:
   version "1.0.3"
@@ -3915,10 +3927,10 @@ dahlia@^1.13.19:
     styled-components "^4.2.0"
     styled-jsx "^3.2.1"
 
-dahlia@^1.14.2:
-  version "1.14.2"
-  resolved "https://registry.npmjs.org/dahlia/-/dahlia-1.14.2.tgz#aea4413d9b5fecf6e79cb6a56451de520cfb0660"
-  integrity sha512-cjCmEr4arbpioiYBsdJC4lsGTYXpnxkoydq2NzCIZt/byHyyxnC/r0CNY5wW0MERxTEd5+lo6xAv4/9GVjsV/A==
+dahlia@^1.14.4:
+  version "1.14.4"
+  resolved "https://registry.npm.taobao.org/dahlia/download/dahlia-1.14.4.tgz#56c04611f4fef230c60df6f4e9cf9acfb358fabb"
+  integrity sha1-VsBGEfT+8jDGDfb06c+az7NY+rs=
   dependencies:
     "@types/styled-components" "^4.1.14"
     "@types/styled-jsx" "^2.2.8"
@@ -3930,8 +3942,8 @@ dahlia@^1.14.2:
     checkok-required "^1.0.0"
     checkok-string "^1.0.1"
     checkok-url "^1.0.1"
-    dahlia-form "^1.0.5"
-    dahlia-graphql "^1.1.1"
+    dahlia-form "^1.1.0"
+    dahlia-graphql "^1.1.2"
     dahlia-i18n "^1.0.3"
     dahlia-modal "^1.2.0"
     dahlia-rest "^1.1.2"
