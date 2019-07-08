@@ -30,6 +30,11 @@
   resolved "https://registry.npm.taobao.org/@ant-design/icons/download/@ant-design/icons-2.0.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40ant-design%2Ficons%2Fdownload%2F%40ant-design%2Ficons-2.0.1.tgz#021c3f5c1df8b1d01c25b705366c597e7cbb3ca5"
   integrity sha1-Ahw/XB34sdAcJbcFNmxZfny7PKU=
 
+"@ant-design/icons@~2.1.1":
+  version "2.1.1"
+  resolved "https://registry.npm.taobao.org/@ant-design/icons/download/@ant-design/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
+  integrity sha1-e5wI3/1PXUHbZn2dvl4BB9C9mko=
+
 "@babel/code-frame@7.0.0", "@babel/code-frame@^7.0.0":
   version "7.0.0"
   resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
@@ -1911,6 +1916,64 @@ antd@^3.17.0:
     shallowequal "^1.1.0"
     warning "~4.0.3"
 
+antd@^3.20.0:
+  version "3.20.1"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-3.20.1.tgz#b6274517bab290754a10907a87a23b2fd8e39417"
+  integrity sha1-tidFF7qykHVKEJB6h6I7L9jjlBc=
+  dependencies:
+    "@ant-design/create-react-context" "^0.2.4"
+    "@ant-design/icons" "~2.1.1"
+    "@ant-design/icons-react" "~2.0.1"
+    "@types/react-slick" "^0.23.4"
+    array-tree-filter "^2.1.0"
+    babel-runtime "6.x"
+    classnames "~2.2.6"
+    copy-to-clipboard "^3.2.0"
+    css-animation "^1.5.0"
+    dom-closest "^0.2.0"
+    enquire.js "^2.1.6"
+    lodash "^4.17.11"
+    moment "^2.24.0"
+    omit.js "^1.0.2"
+    prop-types "^15.7.2"
+    raf "^3.4.1"
+    rc-animate "^2.8.3"
+    rc-calendar "~9.15.0"
+    rc-cascader "~0.17.4"
+    rc-checkbox "~2.1.6"
+    rc-collapse "~1.11.3"
+    rc-dialog "~7.4.0"
+    rc-drawer "~1.10.1"
+    rc-dropdown "~2.4.1"
+    rc-editor-mention "^1.1.13"
+    rc-form "^2.4.5"
+    rc-input-number "~4.4.5"
+    rc-mentions "~0.3.1"
+    rc-menu "~7.4.23"
+    rc-notification "~3.3.1"
+    rc-pagination "~1.20.1"
+    rc-progress "~2.5.0"
+    rc-rate "~2.5.0"
+    rc-select "~9.1.4"
+    rc-slider "~8.6.11"
+    rc-steps "~3.4.1"
+    rc-switch "~1.9.0"
+    rc-table "~6.6.0"
+    rc-tabs "~9.6.4"
+    rc-time-picker "~3.7.1"
+    rc-tooltip "~3.7.3"
+    rc-tree "~2.1.0"
+    rc-tree-select "~2.9.1"
+    rc-trigger "^2.6.2"
+    rc-upload "~2.6.7"
+    rc-util "^4.6.0"
+    react-lazy-load "^3.0.13"
+    react-lifecycles-compat "^3.0.4"
+    react-slick "~0.24.0"
+    resize-observer-polyfill "^1.5.1"
+    shallowequal "^1.1.0"
+    warning "~4.0.3"
+
 anymatch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/anymatch/download/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
@@ -3770,38 +3833,39 @@ dahlia-antd@^1.0.0:
     babel-plugin-import "^1.11.0"
     customize-cra "^0.2.11"
 
-dahlia-drawer@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npm.taobao.org/dahlia-drawer/download/dahlia-drawer-0.0.3.tgz#898c51ef852c5d087cec2fa02abf3aeddb6fc406"
-  integrity sha1-iYxR74UsXQh87C+gKr867dtvxAY=
+dahlia-drawer@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/dahlia-drawer/download/dahlia-drawer-1.0.2.tgz#7789ee62bf641c8a4f821c79807be675bbfa3125"
+  integrity sha1-d4nuYr9kHIpPghx5gHvmdbv6MSU=
   dependencies:
-    dahlia-store "^1.3.1"
+    dahlia-drawer "^1.0.2"
+    dahlia-store "^1.3.4"
 
-dahlia-form@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npm.taobao.org/dahlia-form/download/dahlia-form-1.2.2.tgz#37cf6934f58263389920a931c90863e6881b9ab2"
-  integrity sha1-N89pNPWCYziZIKkxyQhj5ogbmrI=
+dahlia-form@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.npm.taobao.org/dahlia-form/download/dahlia-form-1.2.6.tgz#6c2e79036d9a2ea110ffa21dbbd47fbef1c68ac6"
+  integrity sha1-bC55A22aLqEQ/6Idu9R/vvHGisY=
   dependencies:
     checkok "^1.1.1"
-    dahlia-store "^1.3.1"
+    dahlia-store "^1.3.4"
     fast-deep-equal "^2.0.1"
     lodash.get "^4.4.2"
     lodash.set "^4.3.2"
     util-is-array "^1.0.0"
 
-dahlia-graphql-client@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npm.taobao.org/dahlia-graphql-client/download/dahlia-graphql-client-1.1.3.tgz#9c489164a9cfb082a0aa00490ee2727ab18b6f29"
-  integrity sha1-nEiRZKnPsIKgqgBJDuJyerGLbyk=
+dahlia-graphql-client@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npm.taobao.org/dahlia-graphql-client/download/dahlia-graphql-client-1.1.4.tgz#68af1cdf50e3ea466d8638f8c5b67660ad936e44"
+  integrity sha1-aK8c31Dj6kZthjj4xbZ2YK2TbkQ=
   dependencies:
-    dahlia-request "^1.1.0"
+    dahlia-request "^1.1.1"
 
-dahlia-graphql@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npm.taobao.org/dahlia-graphql/download/dahlia-graphql-1.1.3.tgz#dcb9e660919df48c1b69607d3cc94b19f20ccad0"
-  integrity sha1-3LnmYJGd9IwbaWB9PMlLGfIMytA=
+dahlia-graphql@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.npm.taobao.org/dahlia-graphql/download/dahlia-graphql-1.1.8.tgz#d9a27fafcef20ebbdd8d1ed04b0c93dc9af8da4b"
+  integrity sha1-2aJ/r87yDrvdjR7QSwyT3Jr42ks=
   dependencies:
-    dahlia-graphql-client "^1.1.3"
+    dahlia-graphql-client "^1.1.4"
 
 dahlia-i18n@^1.0.4:
   version "1.0.4"
@@ -3819,39 +3883,46 @@ dahlia-less@^1.0.0:
     less "^3.9.0"
     less-loader "^4.1.0"
 
-dahlia-modal@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npm.taobao.org/dahlia-modal/download/dahlia-modal-1.2.2.tgz#e072e819e34ad8eac2c7f0ad69f7ed5ae868fd52"
-  integrity sha1-4HLoGeNK2OrCx/CtafftWuho/VI=
+dahlia-modal@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/dahlia-modal/download/dahlia-modal-1.2.5.tgz#c324738980e6e5ed1d318ddb3a614609c305e1fc"
+  integrity sha1-wyRziYDm5e0dMY3bOmFGCcMF4fw=
   dependencies:
-    dahlia-store "^1.3.1"
+    dahlia-store "^1.3.4"
 
-dahlia-observable@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/dahlia-observable/download/dahlia-observable-1.1.0.tgz#bbea49baf26d9ebd8fe840a0903ee0d83b5c140d"
-  integrity sha1-u+pJuvJtnr2P6ECgkD7g2DtcFA0=
+dahlia-observable@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/dahlia-observable/download/dahlia-observable-1.1.1.tgz#50fe252c797ffdba1ba560b205ece365e7426b87"
+  integrity sha1-UP4lLHl//bobpWCyBezjZedCa4c=
 
-dahlia-request@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/dahlia-request/download/dahlia-request-1.1.0.tgz#05d3d14531d24689f34495b757b62ff66f717fd1"
-  integrity sha1-BdPRRTHSRonzRJW3V7Yv9m9xf9E=
+dahlia-popup@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/dahlia-popup/download/dahlia-popup-1.0.1.tgz#9b30904d4d94995ea9174df65160866fb79b8a58"
+  integrity sha1-mzCQTU2UmV6pF032UWCGb7ebilg=
+  dependencies:
+    dahlia-store "^1.3.4"
+
+dahlia-request@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/dahlia-request/download/dahlia-request-1.1.1.tgz#50a76a1b35e7bf9017e571e7dbb720a4f42afb26"
+  integrity sha1-UKdqGzXnv5AX5XHn27cgpPQq+yY=
   dependencies:
     cross-fetch "^3.0.1"
     qs "^6.7.0"
 
-dahlia-rest@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.npm.taobao.org/dahlia-rest/download/dahlia-rest-1.1.5.tgz#775a51564d50fc2b88b79ade3c9a095689bb378e"
-  integrity sha1-d1pRVk1Q/CuIt5rePJoJVom7N44=
+dahlia-rest@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.npm.taobao.org/dahlia-rest/download/dahlia-rest-1.1.7.tgz#729a8bf788f14d2d1841349f3f08e3ccf95c715a"
+  integrity sha1-cpqL94jxTS0YQTSfPwjjzPlccVo=
   dependencies:
-    dahlia-request "^1.1.0"
+    dahlia-request "^1.1.1"
 
-dahlia-router@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.npm.taobao.org/dahlia-router/download/dahlia-router-1.3.2.tgz#ed697cf330d993ff5054d5a9335e007cef54bd10"
-  integrity sha1-7Wl88zDZk/9QVNWpM14AfO9UvRA=
+dahlia-router@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.npm.taobao.org/dahlia-router/download/dahlia-router-1.3.6.tgz#785ec57e33daa442c7b40c844d6c77ce870ceacf"
+  integrity sha1-eF7FfjPapELHtAyETWx3zocM6s8=
   dependencies:
-    dahlia-store "^1.3.1"
+    dahlia-store "^1.3.4"
     path-parser "^4.2.0"
 
 dahlia-scripts@^1.0.6:
@@ -3881,13 +3952,14 @@ dahlia-scripts@^1.0.6:
     webpackbar "^3.1.5"
     yosay "^2.0.2"
 
-dahlia-store@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.npm.taobao.org/dahlia-store/download/dahlia-store-1.3.1.tgz#78f10f81aa4f213fa9664246d6cda10e1264c497"
-  integrity sha1-ePEPgapPIT+pZkJG1s2hDhJkxJc=
+dahlia-store@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.npm.taobao.org/dahlia-store/download/dahlia-store-1.3.4.tgz#d42a1570a16138e7a2e0d1c5ede1c334707fb132"
+  integrity sha1-1CoVcKFhOOei4NHF7eHDNHB/sTI=
   dependencies:
-    dahlia-observable "^1.1.0"
+    dahlia-observable "^1.1.1"
     fast-deep-equal "^2.0.1"
+    lodash.debounce "^4.0.8"
 
 dahlia-styled-jsx@^1.0.0:
   version "1.0.0"
@@ -3896,13 +3968,14 @@ dahlia-styled-jsx@^1.0.0:
   dependencies:
     customize-cra "^0.2.11"
 
-dahlia@^1.15.7:
-  version "1.15.7"
-  resolved "https://registry.npm.taobao.org/dahlia/download/dahlia-1.15.7.tgz#9db3ed0cabd63ad32ee25c9884ffcc45034073a8"
-  integrity sha1-nbPtDKvWOtMu4lyYhP/MRQNAc6g=
+dahlia@^1.15.16:
+  version "1.15.16"
+  resolved "https://registry.npm.taobao.org/dahlia/download/dahlia-1.15.16.tgz#03c2d200a489db7095c318f8f451f66a819d65fc"
+  integrity sha1-A8LSAKSJ23CVwxj49FH2aoGdZfw=
   dependencies:
     "@types/styled-components" "^4.1.14"
     "@types/styled-jsx" "^2.2.8"
+    antd "^3.20.0"
     checkok "^1.1.1"
     checkok-email "^1.0.1"
     checkok-max "^1.0.1"
@@ -3911,14 +3984,15 @@ dahlia@^1.15.7:
     checkok-required "^1.0.0"
     checkok-string "^1.0.1"
     checkok-url "^1.0.1"
-    dahlia-drawer "^0.0.3"
-    dahlia-form "^1.2.2"
-    dahlia-graphql "^1.1.3"
+    dahlia-drawer "^1.0.2"
+    dahlia-form "^1.2.6"
+    dahlia-graphql "^1.1.8"
     dahlia-i18n "^1.0.4"
-    dahlia-modal "^1.2.2"
-    dahlia-rest "^1.1.5"
-    dahlia-router "^1.3.2"
-    dahlia-store "^1.3.1"
+    dahlia-modal "^1.2.5"
+    dahlia-popup "^1.0.1"
+    dahlia-rest "^1.1.7"
+    dahlia-router "^1.3.6"
+    dahlia-store "^1.3.4"
     gery "^1.1.3"
     gql-tag "^1.0.1"
     styled-components "^4.2.0"
@@ -9827,6 +9901,16 @@ rc-dialog@~7.4.0:
     rc-animate "2.x"
     rc-util "^4.4.0"
 
+rc-drawer@~1.10.1:
+  version "1.10.1"
+  resolved "https://registry.npm.taobao.org/rc-drawer/download/rc-drawer-1.10.1.tgz?cache=0&sync_timestamp=1561538091260&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-drawer%2Fdownload%2Frc-drawer-1.10.1.tgz#9a74242cf37f5709f83483a987e15d68277afe44"
+  integrity sha1-mnQkLPN/Vwn4NIOph+FdaCd6/kQ=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+    prop-types "^15.5.0"
+    rc-util "^4.5.1"
+
 rc-drawer@~1.9.8:
   version "1.9.9"
   resolved "https://registry.npm.taobao.org/rc-drawer/download/rc-drawer-1.9.9.tgz?cache=0&sync_timestamp=1561538091260&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-drawer%2Fdownload%2Frc-drawer-1.9.9.tgz#b0096c92e94b623179ee985bfa9cd09f26e86f66"
@@ -9967,6 +10051,14 @@ rc-progress@~2.3.0:
     babel-runtime "6.x"
     prop-types "^15.5.8"
 
+rc-progress@~2.5.0:
+  version "2.5.1"
+  resolved "https://registry.npm.taobao.org/rc-progress/download/rc-progress-2.5.1.tgz#ed5b573c0c8277a11e5a128ce5f5ca16f2e4dd6b"
+  integrity sha1-7VtXPAyCd6EeWhKM5fXKFvLk3Ws=
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.5.8"
+
 rc-rate@~2.5.0:
   version "2.5.0"
   resolved "https://registry.npm.taobao.org/rc-rate/download/rc-rate-2.5.0.tgz#72d4984a03d0a7a0e6779c7a79efcea27626abf6"
@@ -10063,6 +10155,17 @@ rc-time-picker@~3.6.6:
   version "3.6.6"
   resolved "https://registry.npm.taobao.org/rc-time-picker/download/rc-time-picker-3.6.6.tgz#343390ad1a3a06b49848c266d8311b3c572ca0d1"
   integrity sha1-NDOQrRo6BrSYSMJm2DEbPFcsoNE=
+  dependencies:
+    classnames "2.x"
+    moment "2.x"
+    prop-types "^15.5.8"
+    raf "^3.4.1"
+    rc-trigger "^2.2.0"
+
+rc-time-picker@~3.7.1:
+  version "3.7.1"
+  resolved "https://registry.npm.taobao.org/rc-time-picker/download/rc-time-picker-3.7.1.tgz#35a2c9cbd9758827c1ce57b8817db49472c95cc3"
+  integrity sha1-NaLJy9l1iCfBzle4gX20lHLJXMM=
   dependencies:
     classnames "2.x"
     moment "2.x"
