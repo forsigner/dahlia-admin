@@ -10,7 +10,7 @@ interface Todo {
 
 export default () => {
   const { loading, data, error } = useFetch<Todo>(Api.GetTodo, {
-    param: { id: 1 },
+    params: { id: 1 },
   })
 
   if (loading) return <span>loading...</span>
