@@ -24,7 +24,7 @@
   "dependencies": {
     "antd": "^3.17.0",
     "classnames": "^2.2.6",
-    "dahlia": "^1.15.16",
+    "dahlia": "^1.15.17",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -36,8 +36,8 @@
     "@types/react-dom": "^16.8.4",
     "dahlia-antd": "^1.0.0",
     "dahlia-less": "^1.0.0",
-    "dahlia-scripts": "^1.0.6",
+    "dahlia-scripts": "^1.1.1",
     "dahlia-styled-jsx": "^1.0.0",
-    "typescript": "^3.4.5"
+    "typescript": "3.4.5"
   }
 }
