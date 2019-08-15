@@ -14,4 +14,6 @@ const config: Partial<Config> = {
   },
 }
 
+console.log('config:', config)
+
 export default config
